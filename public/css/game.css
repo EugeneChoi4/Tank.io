@@ -1,0 +1,55 @@
+body{
+    background-color: #0c0b1f;
+    font-family: Trebuchet MS;
+    color: white;
+    text-align: center;
+}
+img{
+    height: 50px;
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+}
+.row {
+    display: flex;
+}
+
+.column {
+    background-color: green;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 2%;
+    flex: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.outer{
+    display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.middle{
+    display: table-cell;
+    vertical-align: middle;
+}
+.name{
+    margin-left: 30%;
+  width: 400px;
+    background-color: rgba(0,0,0,0.4);
+      width: 40%;
+      border: 3px solid green;
+      padding: 20px;
+      
+}
+#instruct{
+    text-align:left;
+    font-size: 25px;
+}

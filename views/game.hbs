@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>.IO Game</title>
+    <link type="text/css" rel="stylesheet" href="css/game.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+    <div>
+        <img src="../images/tank.png"></img>
+        <img src="../images/tank.png"></img>
+        <img src="../images/tank.png"></img>
+        <h1>Tank.io</h1>
+        <img src="../images/tank.png"></img>
+        <img src="../images/tank.png"></img>
+        <img src="../images/tank.png"></img>
+    </div>
+    <canvas id='game-canvas'></canvas>
+    <div class="row">
+        <div class="column">
+            <h1>INSTRUCTIONS</h1>
+            <div id="instruct">
+                <ul>
+                    <li>Use WASD to move, CLICK to shoot</li>
+                    <li>Shoot other players by aiming with the cursor</li>
+                    <li>Gain 10 points every time you eliminate someone!</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <h2>All-Time Leaderboard</h2>
+            <div id="leader"></div>
+        </div>
+    </div>
+    <script type='text/javascript' src="js/gamerender.js"></script>
+</body>
+</html>

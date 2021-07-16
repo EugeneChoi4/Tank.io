@@ -1,3 +1,3 @@
 # Tank.io
 
-Online multiplayer web application using sockets and Node.js.
+Online multiplayer game/web application using sockets and Node.js.
